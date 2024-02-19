@@ -1,0 +1,13 @@
+const button = document.querySelector('#btn');
+
+let count = 0;
+button.addEventListener('click', () => {
+    let userData = JSON.parse(localStorage.getItem('product')) || [];
+    const batch = userData.slice(count, count + 6);
+    batch.forEach((item, index) => {
+       // console.log(item);
+        console.log(count + index, item);
+    });
+
+    count += 6;
+});

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="../css/admindb.css">
+
+<body>
+    <div class="container">
+        <a href="../public/index.html" id="logout">Logout</a>
+        <h1>Admin Dashboard</h1>
+        <br><br>
+        <fieldset id="fildset1">
+            <legend>Add-Item</legend>
+            <form action="">
+                <label for="">Product Name</label>
+                <input type="text" placeholder="Product name" name="productname">
+                <br><br>
+                <label for="">Decription</label>
+                <input type="text" placeholder="Product Description" name="productdes">
+                <br><br>
+                <label for="">Product Price</label>
+                <input type="text" placeholder="Product price" name="productpri">
+                <br><br>
+                <input type="submit">
+            </form>
+        </fieldset>
+        <br><br>
+        
+        <div id="edit-container">
+        <fieldset id="fildset2">
+            <legend>Edit -item</legend>
+            <form action="" class="edit_form">
+                <label for="">Product Name</label>
+                <input type="text" placeholder="Product name" id="edit_name">
+                <br><br>
+                <label for="">Decription</label>
+                <input type="text" placeholder="Product Description" id="edit_des">
+                <br><br>
+                <label for="">Product Price</label>
+                <input type="text" placeholder="Product price" id="edit_price">
+                <br><br>
+                <input type="submit">
+            </form>
+        </fieldset>
+        </div>
+    </div>
+<br><br><br>
+    <div class="main">
+        <table id="table" border="1">
+            <tr>
+                <th>product-id</th>
+                <th>product-name</th>
+                <th>product-description</th>
+                <th>product-productprice</th>
+                <th colspan="2">Action</th>
+            </tr>
+        </table>
+        <!-- display -->
+    </div>
+</body>
+<script src="../db/admin.js"></script>
+
+</html>

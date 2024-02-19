@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+
+#fildset1 {
+    width: fit-content;
+    height: fit-content;
+    box-sizing: border-box;
+}
+
+#fildset2 {
+    width: 45%;
+    box-sizing: border-box;
+}
+
+#edit-container {
+    width: 45%;
+    display: none;
+}
+#show-edit{
+   display: inline; 
+}
+.edit-button{
+    background-color: aqua;
+}
+#delete-button{
+    background-color: red;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: green;
+}
+th{
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+tr{
+    font-family: 'Courier New', Courier, monospace;
+}
+#logout{
+    color:red;
+    margin: left;
+}

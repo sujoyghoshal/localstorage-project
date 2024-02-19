@@ -1,0 +1,23 @@
+table{
+    display: none;
+}
+.click-table{
+    display:contents;
+}
+.loadmore-button{
+    display: none;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+th{
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+td{
+    font-family: 'Courier New', Courier, monospace;
+}
+#logout{
+    font-family: 'Courier New', Courier, monospace;
+}
