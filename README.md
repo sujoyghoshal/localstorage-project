@@ -17,4 +17,4 @@ This project is a web application built using HTML, CSS, JavaScript, and Bootstr
 - **HTML:** For structuring the content.
 - **CSS:** For styling the layout and design.
 - **JavaScript:** For interactivity and managing local storage.
-- **Bootstrap Icons:** For enhancing the UI with icons.
+- **Bootstrap Icons:** For enhancing the UI with icons
